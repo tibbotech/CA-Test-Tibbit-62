@@ -38,7 +38,7 @@ In *on_sys_timer()*, the following process is being repeated periodically:
 2. A 1-wire sensor with a specific ID, distinguished by SID variable in the code, is being read and temperature is measured. You can change SID value to match one of your sensors. The sensor reading is reported in debugprint.
 
 
-## In-system Updates of Tibbit Firmware
+## In-System Updates of Tibbit Firmware
 The PIC microcontroller of Tibbit #62 can be upgraded in the system and without any additional hardware. The firmware update process utilizes the low-voltageprogramming (LVP) mode of the PIC microcontroller.
 Tibbo provides a library for in-system upgrades; you can find it here:
 https://github.com/tibbotech/libraries/tree/main/pic

@@ -1,4 +1,6 @@
 tmp/
 *.obj
 *.tprusr
+*.svg
+*.odt
 TIDE

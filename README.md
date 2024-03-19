@@ -48,3 +48,13 @@ Your new firmware file (in hex format) should be added to the project's director
 
 ## Need Help?
 Email *support@tibbo.com*, and we will gladly help you integrate Tibbit#62 into your project.
+
+## Useful links
+* [Tibbo](https://tibbo.com)
+* [Tibbo Project System (TPS)](https://tibbo.com/store/tps.html)
+* [AppBlocks — our no-code platform](https://appblocks.io)
+* [Tibbit #62 — Official Product Page](https://www.tibbo.com/store/tps/tibbits.html)
+* [Tibbit #62 — Official Documentation](https://docs.tibbo.com/tibbit_62)
+* [Tibbit #62 — Tibbo BASIC Library](https://github.com/tibbotech/libraries/tree/main/tibbits/tbt62)
+* [In-System Firmware Updates Tibbo BASIC Library (LVP)](https://github.com/tibbotech/libraries/tree/main/pic)
+* [Tibbo Support Center](https://tibbo.com/support.html)

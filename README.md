@@ -46,10 +46,7 @@ https://github.com/tibbotech/libraries/tree/main/pic
 In the *on_sys_init()* event, there is a commented section. If you need to try to upgrade the Tibbit's firmware, you just need to uncomment the related section.
 Your new firmware file (in hex format) should be added to the project's directory and included in the project. For testing, the latest firmware of Tibbit#62 is already added to this project, named *Tibbit62_FW_00_01.hex*.
 
-## Need Help?
-Email *support@tibbo.com*, and we will gladly help you integrate Tibbit#62 into your project.
-
-## Useful links
+## Useful Links
 * [Tibbo](https://tibbo.com)
 * [Tibbo Project System (TPS)](https://tibbo.com/store/tps.html)
 * [AppBlocks — our no-code platform](https://appblocks.io)

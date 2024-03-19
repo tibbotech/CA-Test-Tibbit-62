@@ -2,8 +2,8 @@
 version=1
 platform=TPP3W(G2)
 src_lib_ver=2_01_05
-name=OneWireTest
-output=OneWireTest.tpc
+name=CA-Test-Tibbit-62
+output=CA-Test-Tibbit-62.tpc
 debug=on
 defines= 
 transport=udp_winpcap

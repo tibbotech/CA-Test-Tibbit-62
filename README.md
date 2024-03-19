@@ -31,7 +31,7 @@ In *on_sys_init()*,
 4. The program scans CH2 for connected 1-wire sensors. This process is called discovering sensors.
 
 > [!TIP]
-> Tibbit#62 library supports both metric and imperial systems. This application uses the metric system. Suppose you want to change to an imperial system (in order to report the temperature in Fahrenheit instead of degrees Celsius). In that case, you can add *#define USE_IMPERIAL_UNITS* to your project's definitions, whether in *main.tbs* or "global.tbh"
+> Tibbit#62 library supports both metric and imperial systems. This application uses the metric system. Suppose you want to change to an imperial system (in order to report the temperature in Fahrenheit instead of degrees Celsius). In that case, you can add *#define USE_IMPERIAL_UNITS* to your project's definitions, whether in *main.tbs* or *global.tbh*
 
 In *on_sys_timer()*, the following process is being repeated periodically:
 1. DHT22 sensor is being read periodically to report temperature and humidity in debugprint of the console.

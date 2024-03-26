@@ -6,9 +6,8 @@ This repository offers a test application that can help read multiple 1-Wire/Sin
 The test application has also the capability to update the Tibbit's firware (In-system Upgrades). 
 
 > [!TIP]
-> Before using this test application, it is important to know that [AppBlocks](https://appblocks.io/), our no-code, in-browser, flowchart-based application development system for TPS supports Tibbit#62. AppBlocks automatically generates all the code required to support 1-wire and single-wire devices, including an HTML configuration page for discovering and assigning 1-wire devices connected to a TPS device. This web interface is an indispensable tool for connecting, removing, and servicing the sensors in the field. Therefore, we recommend using AppBlocks for your project; however, if you have an existing project and want to add Tibbit#62, using this application might help you significantly.
-
-
+> Before using this test application, it is important to know that [AppBlocks](https://appblocks.io/), our no-code, in-browser, flowchart-based application development system for TPS supports Tibbit#62. AppBlocks automatically generates all the code required to support 1-wire and single-wire devices, including an HTML configuration page for discovering and assigning 1-wire devices connected to a TPS device. This web interface is an indispensable tool for connecting, removing, and servicing the sensors in the field. Therefore, we recommend using AppBlocks for your project;Here is a link to the [Tibbit#62 walkthrough video] (https://www.youtube.com/watch?v=1rzGAGgJPlM) by
+Appblocks. However, if you have an existing project and want to add Tibbit#62, using this application might help you significantly.
 ## You Will Need
 
 - A TPP3(G2) board. You can also use any other TPP boards such as TPP2G2; you might need to change the pin assignments in *global.tbh* and change platform settings in TIDE.
@@ -50,8 +49,9 @@ Your new firmware file (in hex format) should be added to the project's director
 * [Tibbo](https://tibbo.com)
 * [Tibbo Project System (TPS)](https://tibbo.com/store/tps.html)
 * [AppBlocks — our no-code platform](https://appblocks.io)
-* [Tibbit #62 — Official Product Page](https://www.tibbo.com/store/tps/tibbits.html)
+* [Tibbit #62 — Official Product Page](https://tibbo.com/store/tps/tibbits.html#/62)
 * [Tibbit #62 — Official Documentation](https://docs.tibbo.com/tibbit_62)
 * [Tibbit #62 — Tibbo BASIC Library](https://github.com/tibbotech/libraries/tree/main/tibbits/tbt62)
+* [Tibbit #62 Walkthrough Video by AppBlocks] (https://www.youtube.com/watch?v=1rzGAGgJPlM)
 * [In-System Firmware Updates Tibbo BASIC Library (LVP)](https://github.com/tibbotech/libraries/tree/main/pic)
 * [Tibbo Support Center](https://tibbo.com/support.html)

@@ -42,7 +42,7 @@ The PIC microcontroller of Tibbit #62 can be upgraded in the system and without 
 Tibbo provides a library for in-system upgrades; you can find it here:[LVP Library for PIC](https://github.com/tibbotech/libraries/tree/main/pic)
 
 In the *on_sys_init()* event, there is a commented section. If you need to try to upgrade the Tibbit's firmware, you just need to uncomment the related section.
-Your new firmware file (in hex format) should be added to the project's directory and included in the project. For testing, the latest firmware of Tibbit#62 is already added to this project, named *Tibbit62_FW_00_01.hex*.
+Your new firmware file (in hex format) should be added to the project's directory and included in the project. For testing, the latest firmware of Tibbit#62 is already added to this project, named *Tibbit62_FW_00_02.hex*.
 
 ## Useful Links
 * [Tibbo Website](https://tibbo.com)

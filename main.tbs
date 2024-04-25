@@ -35,7 +35,7 @@ sub on_sys_init()
 	' Upgrade code:
 	
 	'pic_lvp_start(PL_IO_NUM_11_TX1, PL_IO_NUM_10_RX1, PL_IO_NUM_1)	' TPP3G2- on S5
-	'if not pic_lvp_upload_firmware("Tibbit62_FW_00_01.hex") then
+	'if not pic_lvp_upload_firmware("Tibbit62_FW_00_02.hex") then
 	'	sys.halt
 	'end if
 	 '-----------------------End of Upgrading Firmware-----------------------

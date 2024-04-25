@@ -98,9 +98,8 @@ condition=
 locked=no
 location=project
 [file11]
-path=Tibbit62_FW_00_01.hex
+path=Tibbit62_FW_00_02.hex
 type=binary
 format=
-condition=
 locked=no
 location=project

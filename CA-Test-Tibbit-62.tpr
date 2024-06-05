@@ -26,7 +26,7 @@ address=0.36.119.87.3.135
 [address5]
 platform=TPP3W(G2)
 transport=udp_winpcap
-address=0.36.119.87.111.9
+address=0.36.119.86.88.187
 [file1]
 path=main.tbs
 type=basic
@@ -101,5 +101,6 @@ location=project
 path=Tibbit62_FW_00_02.hex
 type=binary
 format=
+condition=
 locked=no
 location=project

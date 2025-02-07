@@ -270,8 +270,8 @@ sub tbt62_delayMS(delay_ms as dword)
 
 	dim tmr as dword
 	
-	tmr = sys.timercountms + delay_ms
-	while tmr > sys.timercountms 
+	tmr = sys.timercountms
+	while sys.timercountms - tmr < delay_ms
 	wend
 
 end sub
@@ -418,7 +418,7 @@ function tbt62_checkTibbit(tbt_channel as byte) as EN_TBT62_INIT_RESULT
 		exit function
 	end if
 	
-	' Get ÌÑÑ
+	' Get VCC
 	voltage = tbt62_get_voltage(TBT62_VOLTAGE_VCC, tbt_channel)
 	if voltage < 4.5 OR voltage > 5.5 then
 		tbt62_checkTibbit = TBT62_INIT_ERROR_FAULT_CHECK_VCC
@@ -608,7 +608,8 @@ function tbt62_ow_get_temp_separate(byref temperature as real, sensorID as strin
 		raw = asc(mid(sensdata, 1, 1)) + asc(mid(sensdata, 2, 1)) * 256
 		if raw and &h800 then
 			' Minus
-			temp = - ((not raw) + 1) * 100 / 16
+			raw = not raw
+			temp = - (raw + 1) * 100 / 16
 		else
 			' Plus
 			temp = raw * 100 / 16
